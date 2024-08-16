@@ -1,3 +1,7 @@
+Aluno: Thiago Neves Monteiro
+Período: 3°
+Ano: 2024
+
 Página do Python  https://www.python.org/
 
 Página do Git  https://git-scm.com/

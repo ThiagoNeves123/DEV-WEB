@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários GET e POST com Exemplos de Tags</title>
+    <style>
+        .container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            background-color: #f0f8ff;
+            padding: 5px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow: auto;
+        }
+        .scroll-to-top {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .scroll-to-top:hover {
+            text-decoration: underline;
+        }
+        .external-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .external-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="inicio">
+
+        <img src="imagem.png" alt="">
+    </div>
+
+
+    <h1>Formulários GET e POST com Exemplos de Tags</h1>
+
+    <p>Repositorio do Github<a href="https://github.com/ThiagoNeves123/DEV-WEB" class="external-link" target="_blank"> GitHub</a>.</p>
+
+    <h2>Formulário com GET</h2>
+    <form action="/exemplo-get" method="get">
+        <label for="nome-get">Nome:</label>
+        <input type="text" id="nome-get" name="nome" required>
+        <br><br>
+        <label for="idade-get">Idade:</label>
+        <input type="number" id="idade-get" name="idade" required>
+        <br><br>
+        <input type="submit" value="Enviar GET">
+    </form>
+    
+    <hr>
+
+    <h2>Formulário com POST</h2>
+    <form action="/exemplo-post" method="post">
+        <label for="nome-post">Nome:</label>
+        <input type="text" id="nome-post" name="nome" required>
+        <br><br>
+        <label for="email-post">Email:</label>
+        <input type="email" id="email-post" name="email" required>
+        <br><br>
+        <input type="submit" value="Enviar POST">
+    </form>
+
+    <hr>
+
+    <h2>Tag <pre></h2>
+    <pre>
+    Texto exemplo
+    formatado com a tag <pre>. Texto exemplo
+    </pre>
+
+    <h2>Tag <div></h2>
+    <div class="container">
+        <h3>Conteúdo da tag<div></h3>
+        <p>Area da tag<div>Usado para agrupar elementos</p>
+    </div>
+
+    <h2>Tag <span></h2>
+    <p>Um exemplo de uso da tag <span> estilos em partes especificas do texto<span class="highlight">Texto destacado com a tag <span>.</span></p>
+
+    <h2>Tag <ul> e <li></h2>
+    <ul>
+        <li>Item 1 - lista não ordenada </li>
+        <li>Item 2 -lista não ordenada </li>
+        <li>Item 3 -lista não ordenada </li>
+    </ul>
+
+    <h2>Tag <ol> e <li></h2>
+    <ol>
+        <li>Item 1 - da lista ordenada</li>
+        <li>Item 2 - lista ordenada</li>
+        <li>Item 3 - lista ordenada</li>
+    </ol>
+
+    <a href="#inicio" class="scroll-to-top">Voltar ao Início</a>
+
+</body>
+</html>
